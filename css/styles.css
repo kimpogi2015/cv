@@ -1,24 +1,116 @@
 body {
-  background-color: #F5EBE0;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Chivo Mono', monospace;
+  font-size: 100%;
+}
+div {
+  padding:20px;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size:5.625rem;
+  line-height: 2;
+  color: #66BFBF;
+}
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
 }
 hr {
-  background-color: #F5EBE0;
   border-style:dotted none none;
   width: 1.5%;
   border-width: 5px;
   border-color: grey;
 }
-img {
-  height: 150px;
-  width: 150px;
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
 }
-br {
-
-}
-h1, h3 {
-  color: #553939;
+a {
+  color: #11999E;
 }
 
-table, ul, ol, h1, h3, p, a, span, label  {
-  font-size: 30px;
+/* CLASS */
+.top-container {
+  background-color: #C0EEE4;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+
+}
+.bottom-container {
+  background-color: #22A39F;
+}
+.pro {
+  text-decoration: underline;
+}
+.bottom-cloud {
+  position: absolute;
+  left:800px;
+  bottom:400px;
+}
+.top-cloud {
+  position: absolute;
+  right:800px;
+  top: 50px;
+}
+.mountain {
+  height: 457px;
+  width: 698px;
+}
+.kim-prof {
+  height: 200px;
+  width: 200px;
+}
+.skills-web {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skills-vid {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.btn {
+  background: #15bfd6;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #c72222;
+  text-decoration: none;
+}
+.copy-kim {
+  color: #EAF6F6;
+}
+.footer-link {
+  color: black;
+}
+.contact-me {
+  line-height: 2;
 }
